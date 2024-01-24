@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import RelativeList from "./RelativeList";
 
-const App = () => {
+function App() {
   return (
-    <div id="main">
-               {/* Do not remove the main div */}
+    <div className="App">
+      <h2>Diwali Shopping List</h2>
+      <RelativeList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
